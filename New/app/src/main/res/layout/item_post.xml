@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp">
+        <ImageView
+            android:id="@+id/img_thumb"
+            android:src="@drawable/sample"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="@color/black"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:lines="1"
+                android:textStyle="bold"
+                android:text="Cậu em út Đoàn Văn Hậu – Từng mắc tội “tày đình”, vươn mình thành nhà vô địch"
+                android:paddingLeft="@dimen/_8sdp"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:textColor="@color/colorWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/tv_desc"
+                android:lines="3"
+                android:paddingLeft="@dimen/_8sdp"
+                android:paddingRight="@dimen/_8sdp"
+                android:text="Cậu em út của đội tuyển Việt Nam từng bỏ học, trốn đi chơi game trước khi góp công đưa đội tuyển Việt Nam giành cúp vàng AFF Cup 2018."
+               android:textColor="@color/colorWhite"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
